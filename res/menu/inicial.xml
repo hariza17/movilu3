@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/paintball"
+        android:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/primero"
+        android:icon="@drawable/common_signin_btn_icon_pressed_light"
+        android:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/segundo"
+        android:icon="@drawable/ic_plusone_standard_off_client"
+        android:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/tercero"
+        android:icon="@drawable/ic_plusone_small_off_client"
+        android:showAsAction="ifRoom|withText"/>
+
+</menu>

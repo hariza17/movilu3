@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_single="true"><shape android:shape="oval">
+            <solid android:color="#9d9d9d" />
+        </shape></item>
+    <item android:state_activated="true"><bitmap android:src="@drawable/ic_btok"></bitmap></item>
+    <item android:state_pressed="true"><shape android:shape="oval">
+            <solid android:color="#02b9e5" />
+        </shape></item>
+    <item android:state_enabled="true"><shape android:shape="oval">
+            <solid android:color="#9d9d9d" />
+        </shape></item>
+    <item android:state_enabled="false"><shape android:shape="oval">
+            <solid android:color="#df0024" />
+        </shape></item>
+
+</selector>

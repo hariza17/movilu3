@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movilú</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_horas">Ho</string>
+    <string name="label_lunes">Lu</string>
+    <string name="label_martes">Ma</string>
+    <string name="label_miercoles">Mi</string>
+    <string name="label_jueves">Ju</string>
+    <string name="label_viernes">Vi</string>
+
+    <string name="label_hora_en1">7am</string>
+    <string name="label_hora_en2">9am</string>
+    <string name="label_hora_en3">11am</string>
+    <string name="label_hora_en4">1pm</string>
+    <string name="label_hora_en5">3pm</string>
+
+    <string name="label_hora_sa1">11am</string>
+    <string name="label_hora_sa2">1pm</string>
+    <string name="label_hora_sa3">3pm</string>
+    <string name="label_hora_sa4">5pm</string>
+    <string name="label_hora_sa5">6pm</string>
+    <string name="label_hora_sa6">7pm</string>
+
+
+    <string name="tex_bt_entrada">Entrada</string>
+    <string name="tex_bt_salida">Salida</string>
+    <string name="title_activity_horario">HorarioActivity</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="title_activity_inicial">InicialActivity</string>
+    <string name="label_nombre_usuario">Nombre de usuario</string>
+    <string name="label_contrasena_usuario">Contraseña</string>
+    <string name="label_tag_noti">nuevo</string>
+    <string name="label_inicio_sesion">Inicia sesión</string>
+    <string name="label_registro"><u>Regístrate</u> </string>
+    <string name="label_entrar">Entrar</string>
+    <string name="label_nombres_registro">Nombres</string>
+    <string name="label_apellidos_registro">Apellidos</string>
+    <string name="label_confir_contrasena_registro">Confirmar contraseña</string>
+    <string name="label_celular_registro">Celular</string>
+    <string name="label_nacimiento_registro">Fecha de nacimento</string>
+    <string name="label_universidad_registro">Seleccione Universidad</string>
+    <string name="label_nombreu_registro">Nombre usuario</string>
+    <string name="label_correo_registro">Correo</string>
+    <string name="label_contrasena_registro">Contraseña</string>
+    <string name="label_bt_registro">Regístrame</string>
+    <string name="label_universidad">Selecione universidad</string>
+    <string name="ServerUrl">http://192.168.1.14:3000</string>
+
+    <string-array name="select_universidad">
+        <item>Tecnológica de Bolivar</item>
+        <item>Sugerir Otra</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabla_cuerpo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoras"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_horas"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textLunes"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_lunes"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textMartes"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_martes"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textMiercoles"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_miercoles"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textJueves"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_jueves"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViernes"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_viernes"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="@string/label_hora_sa3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_martes1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="@string/label_hora_sa3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="@string/label_hora_sa3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:text="@string/label_hora_sa3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <Button
+                android:id="@+id/bt_martes2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <Button
+                android:id="@+id/bt_martes3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <Button
+                android:id="@+id/bt_martes4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <Button
+                android:id="@+id/bt_martes5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textHoraSa6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:padding="7dp"
+            android:text="@string/label_hora_sa6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_lunes6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" >
+
+            <Button
+                android:id="@+id/bt_martes6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_miercoles6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_jueves6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="0.3"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#7a7979"
+            android:textStyle="normal" >
+
+            <Button
+                android:id="@+id/bt_viernes6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dip"
+                android:background="@drawable/bt_normal"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7a7979"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </TableRow>
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_general"
+        android:text="Enviar"
+        android:textColor="#ffffff" />
+
+</TableLayout>

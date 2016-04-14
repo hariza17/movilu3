@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/fondo"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_movilu_normal"
+        android:text="@string/label_inicio_sesion"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boton_movilu_normal"
+        android:text="@string/label_registro"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
